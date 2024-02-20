@@ -1,18 +1,18 @@
 // create a new 'p' tag element
-// const newP1 = document.createElement('p');
+const newP1 = document.createElement('p');
 
 // put some HTML text into this element
-// newP1.innerHTML = 'I was created by <strong>JavaScript</strong>!';
+ newP1.innerHTML = 'I was created by <strong>JavaScript</strong>!';
 
 // note that this element is not added to the page until we explicitly
 // tell the DOM where it should be organized.  we do this using the
 // family relationship of elements in the DOM tree
 
 // to add the element to the end of the document we need to first find the 'body' tag
-// const elBody = document.querySelector('body');
+ const elBody = document.querySelector('body');
 
 // then we need to tell that tag that it has a new 'child' element
-// elBody.appendChild( newP1 );
+ elBody.appendChild( newP1 );
 
 
 
